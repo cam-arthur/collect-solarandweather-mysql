@@ -1,0 +1,27 @@
+{
+    "apiConfig": {
+        "baseURL" : "https://www.semsportal.com",
+        "loginURL" : "/api/v2/Common/CrossLogin",
+        "inverterURL" : "/api/v2/PowerStation/GetMonitorDetailByPowerstationId",
+        "loginToken": {
+            "version": "v2.1.0",
+            "client" : "ios",
+            "language":"en"
+        }
+    },
+    "clientConfig": {
+        "loginInfo": {
+            "account" : "",
+            "pwd" : ""
+        },
+        "stationInfo":{
+            "powerStationId" : ""
+        }
+    },
+    "weatherAPI": {
+        "baseURL":"https://api.openweathermap.org/data/2.5/weather?",
+        "zipCode":"",
+        "countryCode": "au",
+        "appid":""
+    }
+}
